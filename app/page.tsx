@@ -70,14 +70,16 @@ export default function Home() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <a
-                  href="#docs"
+                  href="/FORMATO_INSCRIPCIÓN.pdf"
+                  download="/FORMATO_INSCRIPCIÓN.pdf"
                   className="rounded-xl bg-emerald-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-emerald-600/20 hover:bg-emerald-500"
                 >
                   Descargar planilla
                 </a>
 
                 <a
-                  href="#docs"
+                  href="/REGLAMENTO_OFICIAL.pdf"
+                  download="/REGLAMENTO_OFICIAL.pdf"
                   className="rounded-xl bg-white/5 px-6 py-3 text-sm font-semibold text-white ring-1 ring-white/12 hover:bg-white/10"
                 >
                   Ver reglamento
@@ -203,13 +205,15 @@ export default function Home() {
 
             <div className="flex gap-2">
               <a
-                href="#"
+                href="/FORMATO_INSCRIPCIÓN.pdf"
+                download="/FORMATO_INSCRIPCIÓN.pdf"
                 className="rounded-xl bg-white/5 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/12 hover:bg-white/10"
               >
                 Planilla (PDF)
               </a>
               <a
-                href="#"
+                href="/REGLAMENTO_OFICIAL.pdf"
+                download="/REGLAMENTO_OFICIAL.pdf"
                 className="rounded-xl bg-white/5 px-4 py-2 text-sm font-semibold text-white ring-1 ring-white/12 hover:bg-white/10"
               >
                 Reglamento (PDF)
