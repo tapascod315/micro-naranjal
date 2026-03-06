@@ -93,9 +93,9 @@ export default function Home() {
 
               {/* Highlights */}
               <div className="mt-10 grid gap-3 sm:grid-cols-3">
-                <MiniStat label="Formato" value="Microfútbol" />
+                {/* <MiniStat label="Formato" value="Microfútbol" />
                 <MiniStat label="Sede" value="Naranjal" />
-                <MiniStat label="Edición" value="III" />
+                <MiniStat label="Edición" value="III" /> */}
               </div>
             </div>
 
@@ -136,20 +136,20 @@ export default function Home() {
               <PrizeCard
                 place="2° Puesto"
                 accent="sky"
-                amount="$ 0"
+                amount="$ 1 Millón"
                 note="Subcampeón"
               />
               <PrizeCard
                 place="1° Puesto"
                 accent="emerald"
-                amount="$ 0"
+                amount="$ 2 Millones"
                 note="Campeón"
                 featured
               />
               <PrizeCard
                 place="3° Puesto"
                 accent="indigo"
-                amount="$ 0"
+                amount="$ 500 Mil"
                 note="Tercer lugar"
               />
             </div>
@@ -159,13 +159,13 @@ export default function Home() {
                 title="Goleador del torneo"
                 subtitle="Máximo anotador"
                 badge="⚽"
-                amount="$ 0"
+                amount="Trofeo"
               />
               <AwardCard
                 title="Valla invicta"
                 subtitle="Menos goles recibidos"
                 badge="🧤"
-                amount="$ 0"
+                amount="Trofeo"
               />
             </div>
           </div>
@@ -218,8 +218,8 @@ export default function Home() {
           </div>
 
           <div className="mt-6 grid gap-4 md:grid-cols-2">
-            <ContactCard name="Lucho Forero" phone="3113372015" role="Organizador" />
-            <ContactCard name="Diego Ladino" phone="3144267765" role="Organizador" />
+            <ContactCard name="Lucho Forero" phone="3113372015" role="Director General" />
+            <ContactCard name="Diego Ladino" phone="3144267765" role="Director de Estrategia y Operaciones" />
           </div>
         </div>
       </section>
@@ -253,19 +253,19 @@ export default function Home() {
               Patrocinadores
             </h2>
             <p className="mt-1 text-sm text-neutral-300">
-              Gracias por impulsar el deporte y la comunidad.
+              Gracias por impulsar el deporte y la comunidad. Aún estás a tiempo de unirte como aliado y hacer parte de este proyecto. ⚽🤝
             </p>
           </div>
 
-          <span className="hidden rounded-full bg-white/5 px-4 py-2 text-xs text-neutral-200 ring-1 ring-white/10 md:inline-flex">
+          {/* <span className="hidden rounded-full bg-white/5 px-4 py-2 text-xs text-neutral-200 ring-1 ring-white/10 md:inline-flex">
             Espacios disponibles
-          </span>
+          </span> */}
         </div>
 
-        <div className="mt-6 grid gap-6 md:grid-cols-2">
+        {/* <div className="mt-6 grid gap-6 md:grid-cols-2">
           <SponsorCard name="Patrocinador #1" tagline="Tu marca aquí" />
           <SponsorCard name="Patrocinador #2" tagline="Tu marca aquí" />
-        </div>
+        </div> */}
       </section>
 
       {/* Footer */}
