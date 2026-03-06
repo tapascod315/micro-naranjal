@@ -339,7 +339,7 @@ function SponsorOfficialBanner(props: {
           <p className="text-sm font-semibold text-white">{props.personName}</p>
           <p className="text-xs text-neutral-300">{props.personRole}</p>
           <p className="mt-1 text-xs text-neutral-400">
-            Patrocinador principal de la III Copa.
+            Patrocinador oficial de la III Copa.
           </p>
         </div>
 
